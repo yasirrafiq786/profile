@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:800&display=swap');
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(238,238,238);
+  font-weight: lighter;
+  color: rgb(100,100,100);
+}
+
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+  color: (50,50,50);
+}
+
+h1 {
+  color: #4f3961;
+}
+
+h2 {
+  color: #381460;
+}
+
+a {
+  color: #be79df;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #481380;
+  font-weight: bold;
+}
+
+.card-white {
+  background-color: white;
+  padding: 35px;
+  margin: 81px;
+  box-shadow: 9px 3px 17px 1px rgba(0,0,0,0.13);
+  width: 500px;
+  margin: 20px auto;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-blue {
+background-color: #6b72e1;
+color: white;
+padding: 10px 24px;
+border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: black;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.social-icon {
+font-size: 48px;
+color: rgb(220,220,220);
+margin: 8px;
+}
+
