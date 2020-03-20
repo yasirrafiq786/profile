@@ -18,6 +18,12 @@
   }
 }
 
+@media (max-width: 480) {
+  .container {
+    width: 260;
+  }
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: rgb(238,238,238);
