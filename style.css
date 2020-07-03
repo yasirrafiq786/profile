@@ -1,102 +1,52 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:800&display=swap');
+body {
+  background-color: rgb(245,245,245);
+  margin: 0;
+}
 
 .container {
-  width: 700px;
-  margin: 40px auto;
+  /* width: 100vw; */
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
-  background-color: rgb(238,238,238);
-  font-weight: lighter;
-  color: rgb(100,100,100);
+.banner {
+  height: 90vh;
+  /* width: 100vw; */
+  padding: 32px;
+  margin: 0 56px;
+
 }
 
-h1, h2 {
-  font-family: 'Raleway', sans-serif;
-  color: (50,50,50);
+.banner-top {
+  display: flex;
+  justify-content: space-between;
+
+  
 }
 
-h1 {
-  color: #4f3961;
+#img-banner {
+  height: 400px;
+  width: 650px;
 }
 
-h2 {
-  color: #381460;
+#name-banner {
+  margin: auto 0;
+  font-family: 'Poppins', sans-serif;
+  /* font-size: 32px; */
+  color: #0c2231;
+  /* letter-spacing: 8px; */
+  text-shadow: 0px 0px 15px rgba(150, 150, 150, 0.2);
 }
 
-a {
-  color: #be79df;
-  text-decoration: none;
-  display: inline-block;
+#name-banner h1 {
+  margin: 0;
 }
 
-a:hover {
-  color: #481380;
-  font-weight: bold;
-}
-
-.card-white {
-  background-color: white;
-  padding: 35px;
-  box-shadow: 9px 3px 17px 1px rgba(0,0,0,0.13);
-
-  margin: 20px auto;
+.banner-bottom {
   text-align: center;
-  border-radius: 4px;
-}
-
-.img-circle {
-  border-radius: 50%;
-}
-
-.btn-blue {
-background-color: #6b72e1;
-color: white;
-padding: 10px 24px;
-border-radius: 4px;
-}
-
-.btn-blue:hover {
-  background-color: black;
-  color: white;
-}
-
-.list-inline {
-  list-style: none;
-  padding: 0px;
-}
-
-.list-inline li {
-  display: inline-block;
-}
-
-.social-icon {
-font-size: 48px;
-color: rgb(220,220,220);
-margin: 8px;
-}
-
-@media (max-width: 960px) {
-  .container {
-    width: 700px;
-  }
-}
-
-@media (max-width: 720px) {
-  .container {
-    width: 500px;
-  }
-}
-
-@media (max-width: 540px) {
-  .container {
-    width: 300px;
-  }
-}
-
-@media (max-width: 480) {
-  .container {
-    width: 260;
-  }
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  color: #0c2231;
+  opacity: 0.8;
+  letter-spacing: 8px;
+  /* background: linear-gradient(180deg, rgba(245,245,245,1) 0%, rgba(220,220,220,1) 53%, rgba(203,234,255,1) 100%); */
 }
