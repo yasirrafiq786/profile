@@ -1,0 +1,5 @@
+@import "../style.css";
+
+#about-text {
+    border-bottom: 1px solid rgba(20,20,20,0.5);
+}

@@ -1,52 +1,71 @@
+@import "hover/hover.css";
+@import "pages/aboutme.css"
+
 body {
-  background-color: rgb(245,245,245);
-  margin: 0;
-}
-
-.container {
-  /* width: 100vw; */
-}
-
-.banner {
-  height: 90vh;
-  /* width: 100vw; */
-  padding: 32px;
-  margin: 0 56px;
-
-}
-
-.banner-top {
-  display: flex;
-  justify-content: space-between;
-
+  background-color: rgb(245, 245, 245);
+  
   
 }
 
-#img-banner {
-  height: 400px;
-  width: 650px;
-}
-
-#name-banner {
-  margin: auto 0;
-  font-family: 'Poppins', sans-serif;
-  /* font-size: 32px; */
+h1, p {
   color: #0c2231;
-  /* letter-spacing: 8px; */
+  font-family: 'Poppins', sans-serif;
   text-shadow: 0px 0px 15px rgba(150, 150, 150, 0.2);
 }
 
-#name-banner h1 {
-  margin: 0;
+h1 {
+  font-weight: bold;
 }
 
-.banner-bottom {
-  text-align: center;
-  margin: 0 auto;
-  font-family: 'Poppins', sans-serif;
-  font-size: 32px;
+a, a:hover {
+  text-decoration: none;
+}
+
+.page-container {
+  display: grid;
+  grid-template-rows: min-content auto min-content;
+  padding: 2em;
+  height: 100vh;
+  width: 100vw;
+}
+
+.content {
+  /* display: flex; */
+  /* padding: 0 2em 0 2em; */
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+}
+
+.content-text{
+  margin: auto 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tabs-top {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.tab {
+  padding-right: 1em;
+  
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social-icon {
+  font-size: 40px;
   color: #0c2231;
-  opacity: 0.8;
-  letter-spacing: 8px;
-  /* background: linear-gradient(180deg, rgba(245,245,245,1) 0%, rgba(220,220,220,1) 53%, rgba(203,234,255,1) 100%); */
+}
+
+#img-content {
+  width: 100%;
 }
