@@ -48,10 +48,16 @@ z-index: -1;
 .section-container {
   height: 100vh;
   padding: 1em;
+  
 }
 
 .section-container h1 {
   font-size: 24;
   font-weight: bold;
   text-align: center;
+}
+
+.section-container p {
+  line-height: 1.2em;
+  text-align: justify;
 }
