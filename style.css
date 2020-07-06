@@ -15,6 +15,15 @@ a, a:hover {
   text-decoration: none;
 }
 
+.page-container {
+  position: relative;
+}
+
+.buttons {
+  position: absolute;
+  padding: 1em;
+}
+
 .content {
 position: relative;
 height: 100vh;
@@ -60,4 +69,9 @@ z-index: -1;
 .section-container p {
   line-height: 1.2em;
   text-align: justify;
+}
+
+.btn a p {
+  margin-bottom: 0;
+  color: white;
 }
